@@ -22,7 +22,7 @@ const initialPiaData = {
     series: []
 }
 
-const BASE_URL = 'https://sds1-ranyell.herokuapp.com';
+const BASE_URL = 'https://sds1-projeto-pesquisa-gamer.herokuapp.com';
 
 const Charts = () => {
     const [barChartData, setBarChartData] = useState<BarChartData[]>([]);
